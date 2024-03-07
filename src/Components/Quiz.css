@@ -1,0 +1,44 @@
+*{box-sizing: border-box;
+margin: 0%;
+padding: 0%;}
+
+
+.background{
+    background-image: url(Tech-Test-Your-Knowledge-While-Having-Fun.jpg);
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+label{
+    color:white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    font-size: larger;
+    line-height:1.6;
+    margin-block:4vh;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+button{
+    padding:10px;
+    background-color: brown;
+}
+button:hover{
+    color:white
+}
+button:active{
+    color:red
+}
+button:checked{
+    color:yellow
+}
